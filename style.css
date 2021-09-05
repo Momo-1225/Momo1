@@ -5,9 +5,9 @@ font-family: sans-serif;
 }
 
 .container{
-background: rgba(0,0,0,0.7);
+background: rgba(255,255,255,0.7);
 width: 1000px;
-height: 750px;
+height: 500px;
 margin: 10px 20px 100px;
 }
 
