@@ -8,8 +8,8 @@ font-family: sans-serif;
 background: rgba(255,255,255,0.3);
 width: 700px;
 height: 500px;
-margin: 10px 25% 25%;
-}
+left: 50%;
+top: 50%;}
 
 .img{
 width: 350px;
