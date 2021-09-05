@@ -5,16 +5,16 @@ font-family: sans-serif;
 }
 
 .container{
-background: rgba(255,255,255,0.7);
-width: 1000px;
+background: rgba(255,255,255,0.3);
+width: 700px;
 height: 500px;
 margin: 10px 25% 25%;
 }
 
 .img{
-width: 250px;
-height: 300px;
-margin-right: 90%;}
+width: 350px;
+height: 250px;
+margin-right: 350px;}
 
 .header{
 font-size: 35px;
@@ -25,5 +25,5 @@ margin: 10px 10px 5px;
 }
 
 .school{
-.font-family: timesnewroman;
+font-family: timesnewroman;
 font-size: 27px;}
