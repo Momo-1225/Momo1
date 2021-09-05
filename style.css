@@ -11,6 +11,11 @@ height: 500px;
 margin: 10px 25% 25%;
 }
 
+.img{
+width: 250px;
+height: 300px;
+margin-right: 90%;}
+
 .header{
 font-size: 35px;
 font-family: arial;
