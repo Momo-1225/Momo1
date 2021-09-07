@@ -5,7 +5,7 @@ function School() {
 }
 
 function FB() {
-  mywindow.open("");
+  mywindow.open("https://www.facebook.com/mohamed.mohamed.1225");
 }
 
 function Insta() {
