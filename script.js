@@ -9,7 +9,7 @@ function FB() {
 }
 
 function Insta() {
-  mywindow.open("");
+  mywindow.open("https://www.instagram.com/im.mohamedmohamed/?hl=en");
 }
 
 function Linkedin() {
