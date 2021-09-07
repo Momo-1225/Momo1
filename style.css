@@ -1,29 +1,82 @@
 body{
-background: #151515;
-color: white;
+background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(https://www.teahub.io/photos/full/153-1534903_toronto-city-beautiful-hd-wallpapers-toronto-background.jpg);
+color: rgb(0, 0, 0);
 font-family: sans-serif;
 }
 
 .container{
-background: rgba(255,255,255,0.3);
-width: 700px;
+position: relative;
+background: rgba(255, 255, 255, 0.75);
+width: 65%;
 height: 500px;
-left: 50%;
-top: 50%;}
+margin: 5% 19% 0;
+border-radius: 7px;
+}
 
 .img{
-width: 350px;
-height: 250px;
-margin-right: 350px;}
+position: relative;
+width: 50%;
+height: 500px;
+left: 50%;
+border-top-right-radius: 7px;
+border-bottom-right-radius: 7px; 
+}
 
 .header{
-font-size: 35px;
-font-family: arial;
-font-weight: bold;
-padding-top: 15px;
-margin: 10px 10px 5px;
+  position: relative;
+  font-size: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: normal;
+  margin: -67vh 15px 5px;
 }
 
 .school{
-font-family: timesnewroman;
-font-size: 27px;}
+  font-family: timesnewroman;
+  font-size: 27px;
+  margin: 0px 20px 0px;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.school:hover, .school:active{
+  color: #002a5c;
+}
+
+.text{
+  margin: 15px 15px 0;
+}
+
+.footer{
+  margin: 0 10px 0;
+}
+
+li{
+  list-style: none;
+  margin: 0 25px;
+  display: inline-flex;
+  font-size: 35px;
+  color: black;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+ul li:nth-child(1):hover, ul li:nth-child(1):active{
+  transform: scale(1.05);
+  color: #3b5998;
+  text-shadow: 0 0 10px #ffffff;
+  border-color: white;
+}
+
+ul li:nth-child(2):hover, ul li:nth-child(2):active{
+  transform: scale(1.05);
+  color: #e23670;
+  text-shadow: 0 0 10px #ffffff;
+  border-color: white;
+}
+
+ul li:nth-child(3):hover, ul li:nth-child(3):active{
+  transform: scale(1.05);
+  color: #0e76a8;
+  text-shadow: 0 0 10px #ffffff;
+  border-color: white;
+}
